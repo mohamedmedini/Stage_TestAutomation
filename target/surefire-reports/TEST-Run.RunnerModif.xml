@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="Run.RunnerModif" time="45.614" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\medin\eclipse-workspace\Studdify\target\test-classes;C:\Users\medin\eclipse-workspace\Studdify\target\classes;C:\Users\medin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\medin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-junit\7.9.0\cucumber-junit-7.9.0.jar;C:\Users\medin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\medin\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\medin\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\medin\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-java\2.50.1\selenium-java-2.50.1.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.50.1\selenium-chrome-driver-2.50.1.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.50.1\selenium-remote-driver-2.50.1.jar;C:\Users\medin\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-api\2.50.1\selenium-api-2.50.1.jar;C:\Users\medin\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.50.1\selenium-edge-driver-2.50.1.jar;C:\Users\medin\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\medin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.50.1\selenium-htmlunit-driver-2.50.1.jar;C:\Users\medin\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.18\htmlunit-2.18.jar;C:\Users\medin\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\medin\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\medin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\medin\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\medin\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\medin\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\medin\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;C:\Users\medin\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;C:\Users\medin\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\medin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.50.1\selenium-firefox-driver-2.50.1.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.50.1\selenium-ie-driver-2.50.1.jar;C:\Users\medin\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\medin\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.50.1\selenium-safari-driver-2.50.1.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-support\2.50.1\selenium-support-2.50.1.jar;C:\Users\medin\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\medin\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.50.1\selenium-leg-rc-2.50.1.jar;C:\Users\medin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\medin\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\medin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\medin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\medin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\medin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\medin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\medin\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\medin\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\medin\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\medin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\medin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\medin\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.27.0\allure-cucumber7-jvm-2.27.0.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\medin\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-junit4\2.27.0\allure-junit4-2.27.0.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\medin\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.9.2\extentreports-cucumber7-adapter-1.9.2.jar;C:\Users\medin\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\medin\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\medin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\medin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\medin\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\medin\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\medin\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\medin\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\medin\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\medin\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\medin\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\medin\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\medin\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\medin\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\medin\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\medin\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\medin\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\medin\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\medin\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\medin\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\medin\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\medin\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\medin\.m2\repository\Projet\AutomationObjectModel\0.0.1-SNAPSHOT\AutomationObjectModel-0.0.1-SNAPSHOT.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Tunis"/>
+    <property name="user.country.format" value="TN"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\medin\AppData\Local\Temp\surefire12644933841664213296\surefirebooter-20250415225047426_3.jar C:\Users\medin\AppData\Local\Temp\surefire12644933841664213296 2025-04-15T22-50-47_078-jvmRun1 surefire-20250415225047426_1tmp surefire_0-20250415225047426_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="RunnerModif"/>
+    <property name="surefire.test.class.path" value="C:\Users\medin\eclipse-workspace\Studdify\target\test-classes;C:\Users\medin\eclipse-workspace\Studdify\target\classes;C:\Users\medin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\medin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-junit\7.9.0\cucumber-junit-7.9.0.jar;C:\Users\medin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\medin\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\medin\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\medin\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\medin\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\medin\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-java\2.50.1\selenium-java-2.50.1.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.50.1\selenium-chrome-driver-2.50.1.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.50.1\selenium-remote-driver-2.50.1.jar;C:\Users\medin\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-api\2.50.1\selenium-api-2.50.1.jar;C:\Users\medin\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.50.1\selenium-edge-driver-2.50.1.jar;C:\Users\medin\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\medin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.50.1\selenium-htmlunit-driver-2.50.1.jar;C:\Users\medin\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.18\htmlunit-2.18.jar;C:\Users\medin\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\medin\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\medin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\medin\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\medin\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\medin\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\medin\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;C:\Users\medin\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;C:\Users\medin\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\medin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar;C:\Users\medin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.50.1\selenium-firefox-driver-2.50.1.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.50.1\selenium-ie-driver-2.50.1.jar;C:\Users\medin\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\medin\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.50.1\selenium-safari-driver-2.50.1.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-support\2.50.1\selenium-support-2.50.1.jar;C:\Users\medin\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\medin\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\medin\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.50.1\selenium-leg-rc-2.50.1.jar;C:\Users\medin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\medin\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\medin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\medin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\medin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\medin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\medin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\medin\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\medin\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\medin\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\medin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\medin\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\medin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\medin\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.27.0\allure-cucumber7-jvm-2.27.0.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\medin\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-junit4\2.27.0\allure-junit4-2.27.0.jar;C:\Users\medin\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\medin\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.9.2\extentreports-cucumber7-adapter-1.9.2.jar;C:\Users\medin\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\medin\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\medin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\medin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\medin\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\medin\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\medin\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\medin\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\medin\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\medin\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\medin\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\medin\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\medin\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\medin\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\medin\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\medin\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\medin\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\medin\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\medin\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\medin\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\medin\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\medin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\medin\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\medin\.m2\repository\Projet\AutomationObjectModel\0.0.1-SNAPSHOT\AutomationObjectModel-0.0.1-SNAPSHOT.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\medin"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\medin\eclipse-workspace\Studdify"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\medin\AppData\Local\Temp\surefire12644933841664213296\surefirebooter-20250415225047426_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
+    <property name="user.name" value="medin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\medin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\medin\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="C:\Users\medin\eclipse-workspace\Studdify"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\maven\apache-maven-3.9.9\bin;C:\Program Files\Java\apache-maven-3.9.9\bin;C:\Users\medin\allure-2.29.0\bin;C:\Program Files\Git\bin;C:\xampp\php;C:\Users\medin\eclipse-workspace\allure-2.32.0\bin;C:\Users\medin\allure-2.32.0\bin;C:\Users\medin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2\bin;C:\Users\medin\AppData\Roaming\npm;C:\Users\medin\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="je vérifie la modification de la salle" classname="Modification d une  salle" time="36.896">
+    <system-out><![CDATA[
+@Modifier_Salle
+Scenario: je vÃ©rifie la modification de la salle                                                                 &amp#27;[90m# src/test/features/Modification/ModifSalle.feature:17&amp#27;[0m
+etape en cour
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje saisis url &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://staging.erudaxis.com/"&amp#27;[0m                                                            &amp#27;[90m# StepDefinition.PageHomeStepDef.je_saisis_url(java.lang.String)&amp#27;[0m
+
+    Embedding image [image/png 340756 bytes]
+
+etape en cour
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisis le login &amp#27;[0m&amp#27;[32m&amp#27;[1m"medinimed89@gmail.com"&amp#27;[0m                                                                &amp#27;[90m# StepDefinition.PageHomeStepDef.je_saisis_le_login(java.lang.String)&amp#27;[0m
+
+    Embedding image [image/png 341846 bytes]
+
+etape en cour
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisis le mot de passe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mohamed@123"&amp#27;[0m                                                                    &amp#27;[90m# StepDefinition.PageHomeStepDef.je_saisis_le_mot_de_passe(java.lang.String)&amp#27;[0m
+
+    Embedding image [image/png 342277 bytes]
+
+etape en cour
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur le bouton login&amp#27;[0m                                                                              &amp#27;[90m# StepDefinition.PageHomeStepDef.je_clique_sur_le_bouton_login()&amp#27;[0m
+
+    Embedding image [image/png 431465 bytes]
+
+etape en cour
+LA CONNEXION EST SREUSSI
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje verifie la connexion par le texte &amp#27;[0m&amp#27;[32m&amp#27;[1m"General Statistics"&amp#27;[0m                                                 &amp#27;[90m# StepDefinition.PageHomeStepDef.je_verifie_la_connexion_par_le_texte(java.lang.String)&amp#27;[0m
+
+    Embedding image [image/png 110473 bytes]
+
+etape en cour
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje clique sur plan etude&amp#27;[0m                                                                                 &amp#27;[90m# StepDefinition.AjoutSalle_StepDef.je_clique_sur_plan_etude()&amp#27;[0m
+
+    Embedding image [image/png 58213 bytes]
+
+etape en cour
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje clique sur parametrage&amp#27;[0m                                                                                 &amp#27;[90m# StepDefinition.AjoutSalle_StepDef.je_clique_sur_parametrage()&amp#27;[0m
+
+    Embedding image [image/png 67522 bytes]
+
+etape en cour
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur bloc et salle&amp#27;[0m                                                                                &amp#27;[90m# StepDefinition.AjoutSalle_StepDef.je_clique_sur_bloc_et_salle()&amp#27;[0m
+
+    Embedding image [image/png 69368 bytes]
+
+etape en cour
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur nom des salles&amp#27;[0m                                                                               &amp#27;[90m# StepDefinition.AjoutSalle_StepDef.je_clique_sur_nom_des_salles()&amp#27;[0m
+
+    Embedding image [image/png 48873 bytes]
+
+etape en cour
+La Salle est trouvée : S 716
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje cherche la salle a modifer &amp#27;[0m&amp#27;[32m&amp#27;[1m"S 716"&amp#27;[0m                                                                    &amp#27;[90m# StepDefinition.ModifSalle_StepDef.je_cherche_la_salle_a_modifer(java.lang.String)&amp#27;[0m
+
+    Embedding image [image/png 75999 bytes]
+
+etape en cour
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur icon stylo&amp#27;[0m                                                                                   &amp#27;[90m# StepDefinition.ModifSalle_StepDef.je_clique_sur_icon_stylo()&amp#27;[0m
+
+    Embedding image [image/png 92339 bytes]
+
+etape en cour
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje change le nom de salle &amp#27;[0m&amp#27;[32m&amp#27;[1m"S 400"&amp#27;[0m                                                                         &amp#27;[90m# StepDefinition.ModifSalle_StepDef.je_change_le_nom_de_salle(java.lang.String)&amp#27;[0m
+
+    Embedding image [image/png 80316 bytes]
+
+etape en cour
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje change la capacitÃ© de la salle &amp#27;[0m&amp#27;[32m&amp#27;[1m"50"&amp#27;[0m                                                                     &amp#27;[90m# StepDefinition.ModifSalle_StepDef.je_change_la_capacitÃ©_de_la_salle(java.lang.String)&amp#27;[0m
+
+    Embedding image [image/png 80242 bytes]
+
+etape en cour
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje change  le type de la salle &amp#27;[0m&amp#27;[32m&amp#27;[1m"TD"&amp#27;[0m                                                                        &amp#27;[90m# StepDefinition.ModifSalle_StepDef.je_change_le_type_de_la_salle(java.lang.String)&amp#27;[0m
+
+    Embedding image [image/png 79394 bytes]
+
+etape en cour
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur bouton Modifier&amp#27;[0m                                                                              &amp#27;[90m# StepDefinition.ModifSalle_StepDef.je_clique_sur_bouton_modifier()&amp#27;[0m
+
+    Embedding image [image/png 76849 bytes]
+
+etape en cour
+LA SALLE A ETE MODIFIE AVEC SUCCEE
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje vÃ©rifie la modification de nouvelle salle avec le message popup &amp#27;[0m&amp#27;[32m&amp#27;[1m"La salle a Ã©tÃ© modifiÃ©e avec succÃ¨s."&amp#27;[0m &amp#27;[90m# StepDefinition.ModifSalle_StepDef.je_vÃ©rifie_la_modification_de_nouvelle_salle_avec_le_message_popup(java.lang.String)&amp#27;[0m
+
+    Embedding image [image/png 84668 bytes]
+
+etape en cour
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur bouton OK pour con firmer la modification et je deconnecte&amp#27;[0m                                   &amp#27;[90m# StepDefinition.ModifSalle_StepDef.je_clique_sur_bouton_ok_pour_con_firmer_la_modification_et_je_deconnecte()&amp#27;[0m
+
+    Embedding image [image/png 91811 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 135.0.7049.84 (6c019e56001911b3fd467e03bf68c435924d62f4-refs/branch-heads/7049@{#1778}) on port 65224
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 65224.
+]]></system-err>
+  </testcase>
+</testsuite>
